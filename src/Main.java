@@ -7,5 +7,9 @@ public class Main {
         String separator = " ";
         String fullName = lastName + separator + firstName + separator + middleName;
         System.out.println("ФОИ сотрудника - " + fullName);
+
+        // Задание 2
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName);
     }
 }
