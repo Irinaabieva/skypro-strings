@@ -1,4 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        // Задание 1
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String separator = " ";
+        String fullName = lastName + separator + firstName + separator + middleName;
+        System.out.println("ФОИ сотрудника - " + fullName);
     }
 }
